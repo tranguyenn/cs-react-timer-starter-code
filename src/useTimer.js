@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 
 const useTimer = (ini = 0) => {
-  const [time, setTime] = useState();
+  const [time, setTime] = useState(0);
 
   const isStart = useRef(false);
   const active = useRef();
